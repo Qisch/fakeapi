@@ -34,10 +34,10 @@
       }
     ],
     "users": [
-      { name: 'test1234' ,pass:'secret'},
-      { name: 'test11234' ,pass:'secret1'},
-      { name: 'test21234' ,pass:'secret2'},
-      { name: 'test31234' ,pass:'secret3'},
-      { name: 'test41234' ,pass:'secret4'}  
+      { "name": "test1234" ,"pass":"secret"},
+      { "name": "test11234" ,"pass":"secret1"},
+      { "name": "test21234" ,"pass":"secret2"},
+      { "name": "test31234" ,"pass":"secret3"},
+      { "name": "test41234" ,"pass":"secret4"}  
   ]
 }
