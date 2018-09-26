@@ -32,9 +32,7 @@
         ],
         "id": 4
       }
-    ]
-}
-{ 
+    ],
     "users": [
       { name: 'test1234' ,pass:'secret'},
       { name: 'test11234' ,pass:'secret1'},
@@ -43,4 +41,3 @@
       { name: 'test41234' ,pass:'secret4'}  
   ]
 }
-  
