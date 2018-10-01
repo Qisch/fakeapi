@@ -1,43 +1,85 @@
 {
-    "sections": [
-      { "title": "abc1",
-        "cards": [
-          { "title": "one", "color": "red", "desc": "create a" },
-          { "title": "two", "color": "green", "desc": "create b" },
-          { "title": "three", "color": "blue", "desc": "create c" }
-        ],
-        "id": 1
-      },
-      { "title": "abc2",
-        "cards": [
-          { "title": "one", "color": "red", "desc": "create a" },
-          { "title": "two", "color": "green", "desc": "create b" },
-          { "title": "three", "color": "blue", "desc": "create c" }
-        ],
-        "id": 2
-      },
-      { "title": "abc3",
-        "cards": [
-          { "title": "one", "color": "red", "desc": "create a" },
-          { "title": "two", "color": "green", "desc": "create b" },
-          { "title": "three", "color": "blue", "desc": "create c" }
-        ],
-        "id": 3 
-      },
-      { "title": "abc4",
-        "cards": [
-          { "title": "one", "color": "red", "desc": "create a" },
-          { "title": "two", "color": "green", "desc": "create a" },
-          { "title": "three", "color": "blue", "desc": "create c" }
-        ],
-        "id": 4
-      }
-    ],
-    "users": [
-      { "name": "test1234" ,"pass":"secret"},
-      { "name": "test11234" ,"pass":"secret1"},
-      { "name": "test21234" ,"pass":"secret2"},
-      { "name": "test31234" ,"pass":"secret3"},
-      { "name": "test41234" ,"pass":"secret4"}  
-  ]
+  "boards": [
+    {
+      "name": "FirstBoard",
+      "sections": [
+        { "title": "abc1",
+          "cards": [
+            { "title": "one", "color": "red", "desc": "create a" },
+            { "title": "two", "color": "green", "desc": "create b" },
+            { "title": "three", "color": "blue", "desc": "create c" }
+          ],
+          "id": 1
+        },
+        { "title": "abc2",
+          "cards": [
+            { "title": "one", "color": "red", "desc": "create a" },
+            { "title": "two", "color": "green", "desc": "create b" },
+            { "title": "three", "color": "blue", "desc": "create c" }
+          ],
+          "id": 2
+        },
+        { "title": "abc3",
+          "cards": [
+            { "title": "one", "color": "red", "desc": "create a" },
+            { "title": "two", "color": "green", "desc": "create b" },
+            { "title": "three", "color": "blue", "desc": "create c" }
+          ],
+          "id": 3 
+        },
+        { "title": "abc4",
+          "cards": [
+            { "title": "one", "color": "red", "desc": "create a" },
+            { "title": "two", "color": "green", "desc": "create a" },
+            { "title": "three", "color": "blue", "desc": "create c" }
+          ],
+          "id": 4
+        }
+      ]
+    },
+    {
+      "name": "SecondBoard",
+      "sections": [
+        { "title": "efg1",
+          "cards": [
+            { "title": "four", "color": "red", "desc": "create e" },
+            { "title": "five", "color": "green", "desc": "create f" },
+            { "title": "six", "color": "blue", "desc": "create g" }
+          ],
+          "id": 1
+        },
+        { "title": "abc2",
+          "cards": [
+            { "title": "four", "color": "red", "desc": "create e" },
+            { "title": "five", "color": "green", "desc": "create f" },
+            { "title": "six", "color": "blue", "desc": "create g" }
+          ],
+          "id": 2
+        },
+        { "title": "abc3",
+          "cards": [
+            { "title": "one", "color": "red", "desc": "create a" },
+            { "title": "two", "color": "green", "desc": "create b" },
+            { "title": "three", "color": "blue", "desc": "create c" }
+          ],
+          "id": 3 
+        },
+        { "title": "abc4",
+          "cards": [
+            { "title": "one", "color": "red", "desc": "create a" },
+            { "title": "two", "color": "green", "desc": "create a" },
+            { "title": "three", "color": "blue", "desc": "create c" }
+          ],
+          "id": 4
+        }
+      ]
+    }
+  ],
+  "users": [
+    { "name": "test1234" ,"pass":"secret" },
+    { "name": "test11234" ,"pass":"secret1" },
+    { "name": "test21234" ,"pass":"secret2" },
+    { "name": "test31234" ,"pass":"secret3" },
+    { "name": "test41234" ,"pass":"secret4" }  
+]
 }
